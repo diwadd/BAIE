@@ -1,8 +1,6 @@
 clear all
 close all
 
-dir = 'H:\XRayAA_WaveLets\myCustomMatlabFunction\xraylibForGitHub\readyForGitHub';
-cd(dir)
 
 mex -IC:\boost_1_57_0 mexCinCoeffThinNoAbs.cpp Element.cpp XRLFunctions.cpp ElementEnergyLine.cpp Compound.cpp IncidentEnergyObj.cpp  CinFunctioncs.cpp
 mex -IC:\boost_1_57_0 mexCinCoeff.cpp Element.cpp XRLFunctions.cpp ElementEnergyLine.cpp Compound.cpp IncidentEnergyObj.cpp  CinFunctioncs.cpp
